@@ -73,7 +73,7 @@ int main()
 
 	 printf("SLOW-> CLOCKS: %f \n",x );
 	 printf("FAST-> CLOCKS: %f \n",y );
-	 long double perc = (y/x)*100;
+	 long double perc = ((x-y)/x)*100;
 	 printf("PORCENTAGEM-> %Lf\n ", perc);
 
 
